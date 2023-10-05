@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 restart node1"
+    "start": "pm2 restart node1 -f"
   },
   "author": "Daniel Saputra",
   "license": "MIT",
