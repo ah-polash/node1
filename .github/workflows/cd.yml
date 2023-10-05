@@ -29,5 +29,4 @@ jobs:
           git pull origin master
           git status
           npm install
-          npm i pm2
-          pm2 restart node1
+          npm start
