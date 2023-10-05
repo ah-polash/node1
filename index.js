@@ -1,12 +1,18 @@
-const express = require('express')
-const app = express()
+const express = require("express");
+const app = express();
 
-app.get('/', (req, res) => {
+app.get("/", (req, res) => {
   res.json({
-    msg: "Hello from windws"
-  })
-})
+    msg: "commit from shehabul islam",
+  });
+});
 
-const PORT = 3000
+app.get("/", (req, res) => {
+  res.json({
+    msg: "Hello from windws",
+  });
+});
 
-app.listen(PORT, () => console.log(`App running on PORT ${PORT}`))
+const PORT = 3000;
+
+app.listen(PORT, () => console.log(`App running on PORT ${PORT}`));
