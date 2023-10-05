@@ -7,11 +7,11 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/", (req, res) => {
-  res.json({
-    msg: "Hello from windws",
-  });
-});
+// app.get("/", (req, res) => {
+//   res.json({
+//     msg: "Hello from windws",
+//   });
+// });
 
 const PORT = 3000;
 
